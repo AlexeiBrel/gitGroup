@@ -59,6 +59,52 @@
             </div>
         </header>
         <main class="main">
+            <div class="auto__form noActive form">
+                <form class="auto__body form__body" action="POST">
+                    <h2 class="form__title">Авторизация</h2>
+
+                    <div class="input__error form_grup">
+                        <input id="autoEmail" class="autoEmail form_input" placeholder=" " type="text">
+                        <label for="autoEmail" class="form_label">Email</label>
+                    </div>
+                    <div class="input__error form_grup">
+                        <input id="autoPwd" class="autoPwd form_input" placeholder=" " type="password">
+                        <label for="autoPwd" class="form_label">Пароль</label>
+                    </div>
+                    <button class="btnReg form_button" id="btnAutoForm" type="button">Авторизоваться</button>
+                </form>
+            </div>
+            <div class="reg__form noActive form">
+                <form class="reg__body form__body" action="POST">
+                    <h2 class="form__title">Регистрация</h2>
+
+                    <div class="input__error form_grup">
+                        <input id="regEmail" class="regEmail form_input" placeholder=" " type="text">
+                        <label for="regEmail" class="form_label">Email</label>
+                    </div>
+                    <div class="input__error form_grup">
+                        <input id="regName" class="regName form_input" placeholder=" " type="text">
+                        <label for="regName" class="form_label">Имя</label>
+                    </div>
+                    <div class="input__error form_grup">
+                        <input id="regTel" class="regTel form_input" placeholder=" " type="tel">
+                        <label for="regTel" class="form_label">Телефон</label>
+                    </div>
+                    <div class="input__error form_grup">
+                        <input id="regPwd" class="regPwd form_input" placeholder=" " type="password">
+                        <label for="regPwd" class="form_label">Пароль</label>
+                    </div>
+                    <div class="input__error form_grup">
+                        <input id="regRepPwd" class="regRepPwd form_input" placeholder=" " type="password">
+                        <label for="regRepPwd" class="form_label">Пароль</label>
+                    </div>
+                    <div class="checkbox">
+                        <input id="formAgreement" type="checkbox">
+                        <label class="checkLabel" for="formAgreement">Я ознакомлен с </label><a href="#" class="link__condition" onclick="checkCondition()">Условием</a>
+                    </div>
+                    <button class="btnReg form_button" id="btnRegForm" type="button">Зарегистрироваться</button>
+                </form>
+            </div>
             <section class="main__hero">
                 <h2 class="hero__title">Ремонт вашей мечты</h2>
                 <div class="hero__btnBlock">
@@ -94,27 +140,27 @@
                 <h2 class="section__title">Наши проекты</h2>
                 <div class="our__projects">
                     <div class="project__item">
-                        <img src="/img/projects/pr1.png" alt="">
+                        <img src="img/projects/pr1.png" alt="">
                         <h3>Стиль - Лофт</h3>
                     </div>
                     <div class="project__item">
-                        <img src="/img/projects/pr2.png" alt="">
+                        <img src="img/projects/pr2.png" alt="">
                         <h3>Стиль - Неоклассика</h3>
                     </div>
                     <div class="project__item">
-                        <img src="/img/projects/pr3.png" alt="">
+                        <img src="img/projects/pr3.png" alt="">
                         <h3>Стиль - Скандинавский</h3>
                     </div>
                     <div class="project__item">
-                        <img src="/img/projects/pr4.png" alt="">
+                        <img src="img/projects/pr4.png" alt="">
                         <h3>Стиль - Контемпорари</h3>
                     </div>
                     <div class="project__item">
-                        <img src="/img/projects/pr5.png" alt="">
+                        <img src="img/projects/pr5.png" alt="">
                         <h3>Стиль - Эклектика</h3>
                     </div>
                     <div class="project__item">
-                        <img src="/img/projects/pr6.png" alt="">
+                        <img src="img/projects/pr6.png" alt="">
                         <h3>Стиль - Хай-тек</h3>
                     </div>
                 </div>
@@ -231,7 +277,41 @@
             </section>
         </main>
         <footer class="footer">
-
+            <div class="footer__content">
+                <div class="footer__item">
+                    <h2>Компания gid</h2>
+                    <ul>
+                        <li><a href="#"> О нас</a></li>
+                        <li><a href="#"> Наша команда</a></li>
+                        <li><a href="#"> История</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <h2>Проекты</h2>
+                    <ul>
+                        <li><a href="#"> Квартиры</a></li>
+                        <li><a href="#"> Коттеджы</a></li>
+                        <li><a href="#"> Офисы</a></li>
+                        <li><a href="#"> Рестораны</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <h2>Услуги</h2>
+                    <ul>
+                        <li><a href="#"> Квартиры</a></li>
+                        <li><a href="#"> Коттеджы</a></li>
+                        <li><a href="#"> Офисы</a></li>
+                        <li><a href="#"> Рестораны</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <h2>Контакты</h2>
+                    <ul>
+                        <li> <a href="#"> +375(29)685-98-78</a></li>
+                        <li> <a href="#"> info@gid.pro</a></li>
+                    </ul>
+                </div>
+            </div>
         </footer>
     </div>
 
